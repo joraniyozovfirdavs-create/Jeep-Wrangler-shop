@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.header_hero {
+    background-image: url(../img/header_hero.jpg);
+
+    .container {
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+li {
+    cursor: pointer;
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}

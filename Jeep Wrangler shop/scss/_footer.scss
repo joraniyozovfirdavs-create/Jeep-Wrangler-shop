@@ -1,0 +1,84 @@
+.footer {
+    background-color: #2D2E3D;
+
+
+    .container {
+        padding: 60px 40px;
+        background-color: #2D2E3D;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+
+
+        .footer_top {
+            width: 1360px;
+            height: 80px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            border-bottom: 1px solid #FFFFFF14;
+
+            .footer_top--left {
+
+                a {
+                    font-weight: 600;
+                    font-size: 40px;
+                    line-height: 100%;
+                    letter-spacing: 0%;
+                    color: #ffffff;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 600;
+                    font-style: normal
+                }
+            }
+
+            .fooetr_top--right {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+
+                    p {
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+
+        .footer_center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+
+            a {
+                width: 64px;
+                height: 64px;
+                padding: 16px;
+                border: 1px solid #FFFFFF14;
+                border-radius: 50%;
+            }
+        }
+
+        .footer_bottom {
+
+            p {
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #AAAAAA;
+            }
+        }
+    }
+}
